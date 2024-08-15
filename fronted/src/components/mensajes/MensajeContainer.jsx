@@ -22,8 +22,8 @@ export const MensajeContainer = () => {
       {
         isSelected ? <Mensajes/> : 
         <div className="h-100 d-flex justify-content-center align-items-center text-center" id="content-home">
-          <h5><span>Bienvenido {user.nombreCompleto}.</span><br />
-            Selecciona un chat para poder mensajear <br /> 
+          <h5><span>Bienvenido .</span><br />
+            Selecciona un chat para poder chatear <br /> 
             <i className="bi bi-chat-left-text-fill text-primary"></i></h5>
         </div>
       }

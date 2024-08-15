@@ -19,7 +19,7 @@ export const InputSearch = () => {
 
   return(
     <>
-      <form onSubmit={handleSubmit(handleSearch)} className="row container w-100 p-0 justify-content-center">
+      <form onSubmit={handleSubmit(handleSearch)} className="row container w-100 justify-content-center" id="buscadorContainer">
         <input id="input-search" type="text" className="form-control col bg-dark border border-secondary" placeholder="Buscar..."
           {...register("search")}
         />

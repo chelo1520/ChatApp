@@ -10,7 +10,7 @@ export const Mensajes = () => {
   return (
     <>
     <div className="conatiner bg-secondary w-100 header-user">
-      <p>Es: <span>Addam Sattler</span></p>
+      <p>Es: <span>{usuarioChat.username}</span></p>
     </div>
     <div className="container mensajecontent">
       {

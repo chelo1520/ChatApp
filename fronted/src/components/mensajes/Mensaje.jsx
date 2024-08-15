@@ -13,7 +13,7 @@ export const Mensaje = ({mensaje}) => {
 
     {
       remitente ? (
-      <div className="d-flex mb-1 align-items-end mensaje-enviado">
+      <div className="d-flex mb-1 align-items-end mensaje-enviado justifi-content-start">
         <div className="mensaje-env texto-remitente bg-primary">{mensaje.mensaje}</div>   
         <img width="40px" src={user.fotoPerfil} alt={`img-${user.username}`}/>
       </div>

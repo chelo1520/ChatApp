@@ -50,5 +50,4 @@ io.on("connection", (socket) => {
     io.emit("chat message", msg);
   });
 
-  // También puedes manejar otros eventos según tu lógica
 });

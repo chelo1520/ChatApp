@@ -67,6 +67,11 @@ a {
   padding: .6px;
 }
 
+#buscadorContainer{
+  align-self: flex-start;
+  padding: 10px 0 0 0;
+}
+
 #conversaciones{
   display: flex;
   flex-wrap: wrap;
@@ -74,10 +79,10 @@ a {
   justify-content: center;
   overflow-y: auto;
   /* overflow-x: auto; */
-  height: 350px;
+  height: auto;
   padding: 5px;
   width: 100%;
-  align-self: center;
+  align-self: flex-start;
 }
 #conversaciones::-webkit-scrollbar{
   width: 2px;
@@ -91,7 +96,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  align-content: space-around;
+  /* align-content: space-between; */
   height: 540px;
 }
 
@@ -147,11 +152,10 @@ a {
   border-radius: 50%;
 }
 
-
 .mensaje-env{
   padding: 10px;
   margin: 5px;
-  width: 355px;
+  width: auto;
   overflow-wrap: break-word;
   color: white;
   font-size: 1.2rem;
@@ -159,9 +163,13 @@ a {
 
 .mensajes{
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   width: 100%;
+}
+
+.mensaje-enviado{
+  align-self: flex-end;
 }
 
 .texto-remitente{
@@ -181,6 +189,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 5px;
 }
 
 .header-user p{
