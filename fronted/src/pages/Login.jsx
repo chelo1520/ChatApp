@@ -28,7 +28,7 @@ export const Login = () => {
             <h4 className="text-center">Login <span className="text-primary">ChatApp</span></h4>
           </div>
           <form className="col-12" onSubmit={handleSubmit(login)}>
-              <label htmlFor="username">Username</label>
+              <label htmlFor="username">Nombre de usuario</label>
               <input 
               type="text"
               placeholder="Ingrese nombre de usuario" 
